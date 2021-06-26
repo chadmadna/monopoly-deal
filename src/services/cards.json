@@ -1,0 +1,426 @@
+{
+  "action": [
+    {
+      "type": "action",
+      "name": "deal-breaker",
+      "count": 2,
+      "value": 5
+    },
+    {
+      "type": "action",
+      "name": "debt-collector",
+      "count": 3,
+      "value": 3
+    },
+    {
+      "type": "action",
+      "name": "double-the-rent",
+      "count": 2,
+      "value": 1
+    },
+    {
+      "type": "action",
+      "name": "forced-deal",
+      "count": 4,
+      "value": 3
+    },
+    {
+      "type": "action",
+      "name": "house",
+      "count": 3,
+      "value": 3
+    },
+    {
+      "type": "action",
+      "name": "hotel",
+      "count": 3,
+      "value": 4
+    },
+    {
+      "type": "action",
+      "name": "its-my-birthday",
+      "count": 3,
+      "value": 2
+    },
+    {
+      "type": "action",
+      "name": "just-say-no",
+      "count": 3,
+      "value": 4
+    },
+    {
+      "type": "action",
+      "name": "pass-go",
+      "count": 10,
+      "value": 1
+    },
+    {
+      "type": "action",
+      "name": "sly-deal",
+      "count": 3,
+      "value": 3
+    }
+  ],
+  "property": [
+    {
+      "type": "property",
+      "set": "brown",
+      "name": [
+        "Baltic Avenue",
+        "Mediterranean Avenue"
+      ],
+      "rentPrice": [
+        1,
+        2
+      ],
+      "fullSetCount": 2,
+      "isUtility": false,
+      "isWildCard": false,
+      "value": 1,
+      "count": 1
+    },
+    {
+      "type": "property",
+      "set": "blue",
+      "name": [
+        "Boardwalk",
+        "Park Place"
+      ],
+      "rentPrice": [
+        3,
+        8
+      ],
+      "fullSetCount": 2,
+      "isUtility": false,
+      "isWildCard": false,
+      "value": 4,
+      "count": 1
+    },
+    {
+      "type": "property",
+      "set": "green",
+      "name": [
+        "North Carolina Avenue",
+        "Pacific Avenue",
+        "Pennsylvania Avenue"
+      ],
+      "rentPrice": [
+        2,
+        4,
+        7
+      ],
+      "fullSetCount": 3,
+      "isUtility": false,
+      "isWildCard": false,
+      "value": 4,
+      "count": 1
+    },
+    {
+      "type": "property",
+      "set": "light-blue",
+      "name": [
+        "Connecticut Avenue",
+        "Oriental Avenue",
+        "Vermont Avenue"
+      ],
+      "rentPrice": [
+        1,
+        2,
+        3
+      ],
+      "fullSetCount": 3,
+      "isUtility": false,
+      "isWildCard": false,
+      "value": 1,
+      "count": 1
+    },
+    {
+      "type": "property",
+      "set": "orange",
+      "name": [
+        "New York Avenue",
+        "St. James Place",
+        "Tennessee Avenue"
+      ],
+      "rentPrice": [
+        1,
+        3,
+        5
+      ],
+      "fullSetCount": 3,
+      "isUtility": false,
+      "isWildCard": false,
+      "value": 2,
+      "count": 1
+    },
+    {
+      "type": "property",
+      "set": "purple",
+      "name": [
+        "St. Charles Place",
+        "Virginia Avenue",
+        "States Avenue"
+      ],
+      "rentPrice": [
+        1,
+        2,
+        4
+      ],
+      "fullSetCount": 3,
+      "isUtility": false,
+      "isWildCard": false,
+      "value": 2,
+      "count": 1
+    },
+    {
+      "type": "property",
+      "set": "red",
+      "name": [
+        "Kentucky Avenue",
+        "Indiana Avenue",
+        "Illinois Avenue"
+      ],
+      "rentPrice": [
+        2,
+        3,
+        6
+      ],
+      "fullSetCount": 3,
+      "isUtility": false,
+      "isWildCard": false,
+      "value": 3,
+      "count": 1
+    },
+    {
+      "type": "property",
+      "set": "yellow",
+      "name": [
+        "Ventnor Avenue",
+        "Marvin Gardens",
+        "Atlantic Avenue"
+      ],
+      "rentPrice": [
+        2,
+        4,
+        6
+      ],
+      "fullSetCount": 3,
+      "isUtility": false,
+      "isWildCard": false,
+      "value": 3,
+      "count": 1
+    },
+    {
+      "type": "property",
+      "set": "black",
+      "name": [
+        "Short Line",
+        "B. & O. Railroad",
+        "Reading Railroad",
+        "Pennsylvania Railroad"
+      ],
+      "rentPrice": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "fullSetCount": 4,
+      "isUtility": true,
+      "isWildCard": false,
+      "value": 2,
+      "count": 1
+    },
+    {
+      "type": "property",
+      "set": "light-green",
+      "name": [
+        "Water Works",
+        "Electric Company"
+      ],
+      "rentPrice": [
+        1,
+        2
+      ],
+      "fullSetCount": 2,
+      "isUtility": true,
+      "isWildCard": false,
+      "value": 2,
+      "count": 1
+    },
+    {
+      "type": "property-wildcard",
+      "name": "Property Wild Card",
+      "set": [
+        "blue",
+        "green"
+      ],
+      "value": 4,
+      "count": 1
+    },
+    {
+      "type": "property-wildcard",
+      "name": "Property Wild Card",
+      "set": [
+        "light-blue",
+        "brown"
+      ],
+      "value": 1,
+      "count": 1
+    },
+    {
+      "type": "property-wildcard",
+      "name": "Property Wild Card",
+      "set": [
+        "orange",
+        "purple"
+      ],
+      "value": 2,
+      "count": 2
+    },
+    {
+      "type": "property-wildcard",
+      "name": "Property Wild Card",
+      "set": [
+        "yellow",
+        "red"
+      ],
+      "value": 3,
+      "count": 2
+    },
+    {
+      "type": "property-wildcard",
+      "name": "Property Wild Card",
+      "set": [
+        "green",
+        "black"
+      ],
+      "value": 4,
+      "count": 1
+    },
+    {
+      "type": "property-wildcard",
+      "name": "Property Wild Card",
+      "set": [
+        "light-blue",
+        "black"
+      ],
+      "value": 4,
+      "count": 1
+    },
+    {
+      "type": "property-wildcard",
+      "name": "Property Wild Card",
+      "set": [
+        "light-green",
+        "black"
+      ],
+      "value": 2,
+      "count": 1
+    },
+    {
+      "type": "property-wildcard",
+      "name": "Property Wild Card",
+      "set": "all",
+      "value": null,
+      "count": 2
+    }
+  ],
+  "rent": [
+    {
+      "type": "rent",
+      "name": "Rent - Wildcard",
+      "set": "all",
+      "value": 3,
+      "count": 2
+    },
+    {
+      "type": "rent",
+      "name": "Rent - Green, Blue",
+      "set": [
+        "green",
+        "blue"
+      ],
+      "value": 1,
+      "count": 2
+    },
+    {
+      "type": "rent",
+      "name": "Rent - Brown, Light Blue",
+      "set": [
+        "brown",
+        "light-blue"
+      ],
+      "value": 1,
+      "count": 2
+    },
+    {
+      "type": "rent",
+      "name": "Rent - Purple, Orange",
+      "set": [
+        "purple",
+        "orange"
+      ],
+      "value": 1,
+      "count": 2
+    },
+    {
+      "type": "rent",
+      "name": "Rent - Black, Light Green",
+      "set": [
+        "black",
+        "light-green"
+      ],
+      "value": 1,
+      "count": 2
+    },
+    {
+      "type": "rent",
+      "name": "Rent - Red, Yellow",
+      "set": [
+        "red",
+        "yellow"
+      ],
+      "value": 1,
+      "count": 2
+    }
+  ],
+  "money": [
+    {
+      "type": "money",
+      "name": "$10 M Money",
+      "value": 10,
+      "count": 1
+    },
+    {
+      "type": "money",
+      "name": "$1 M Money",
+      "value": 1,
+      "count": 6
+    },
+    {
+      "type": "money",
+      "name": "$2 M Money",
+      "value": 2,
+      "count": 5
+    },
+    {
+      "type": "money",
+      "name": "$3 M Money",
+      "value": 3,
+      "count": 3
+    },
+    {
+      "type": "money",
+      "name": "$4 M Money",
+      "value": 4,
+      "count": 3
+    },
+    {
+      "type": "money",
+      "name": "$5 M Money",
+      "value": 5,
+      "count": 2
+    }
+  ]
+}
